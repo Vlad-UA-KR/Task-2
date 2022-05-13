@@ -6,24 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>List</title>
-    <style>
-        body {
-            font-size: 20px;
-        }
-
-        li:hover {
-            color: red;
-        }
-
-        input:checked+label {
-            color: green;
-            text-decoration: line-through;
-        }
-
-        li {
-            line-height: 2;
-        }
-    </style>
+    <link rel="stylesheet" href="./list-style.css">
 
 </head>
 
@@ -33,13 +16,48 @@
     </header>
     <main>
         <ol>
-            <li><input type="checkbox" name="Grechka" id="Gr"><label for="Gr">Гречка</label></li>
-            <li><input type="checkbox" name="Moloko" id="Mo"><label for="Mo">Молоко</label></li>
-            <li><input type="checkbox" name="Myaso" id="My"><label for="My">Мясо</label></li>
-            <li><input type="checkbox" name="Ovoshi" id="Ov"><label for="Ov">Овощи</label></li>
-            <li><input type="checkbox" name="Frykti" id="Fr"><label for="Fr">Фрукты</label></li>
-            <li><input type="checkbox" name="Maslo" id="Ma"><label for="Ma">Масло</label></li>
-            <li><input type="checkbox" name="Hleb" id="Hl"><label for="Hl">Хлеб</label></li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Grechka">
+                    <div class="text"><span>Гречка</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Moloko">
+                    <div class="text"><span>Молоко</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Myaso">
+                    <div class="text"><span>Мясо</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Ovoshi">
+                    <div class="text"><span>Овощи</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Frykti">
+                    <div class="text"><span>Фрукты</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Maslo">
+                    <div class="text"><span>Масло</span></div>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="Hleb">
+                    <div class="text"><span>Хлеб</span></div>
+                </label>
+            </li>
         </ol>
     </main>
     <footer>

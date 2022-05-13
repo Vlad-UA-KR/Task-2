@@ -1,0 +1,40 @@
+body {
+    font-size: 20px;
+    margin-left: 50px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+li{
+    width: 140px;
+}
+.text:hover {
+    color: red;
+    background-color: bisque;
+}
+
+[type="checkbox"]:checked+ .text{
+    color: black;
+    text-decoration: line-through;
+    background-color: green;
+}
+input{
+    margin-left: 5px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    transform: scale(1.7);
+}
+.text{
+    width: 140px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    border: 1px solid gray;
+    height: 50px;
+    text-align: center;
+}
+span{
+    display: block;
+    padding-top: 13px;
+}
